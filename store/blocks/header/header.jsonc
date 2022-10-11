@@ -7,7 +7,6 @@
   },
   "header-layout.desktop": {
     "children": [
-      "affiliate-url-monitoring",
       "flex-layout.row#1-desktop",
       "flex-layout.row#3-desktop",
       "sticky-layout#4-desktop"
@@ -87,9 +86,7 @@
     }
   },
   "header-layout.mobile": {
-    "children": [
-      "affiliate-url-monitoring",
-      "sticky-layout#1-mobile"]
+    "children": ["sticky-layout#1-mobile"]
   },
   "sticky-layout#1-mobile": {
     "children": ["flex-layout.row#1-mobile"]
